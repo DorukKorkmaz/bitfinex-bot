@@ -364,10 +364,10 @@ class TradingV1:
                 Confirmation of cancellation of the orders.
         """
         payload = {
-            'request': '/v1//order/cancel/all',
+            'request': '/v1/order/cancel/all',
             'nonce': self._nonce()
         }
-        return self._post('/v1//order/cancel/all', payload)
+        return self._post('/v1/order/cancel/all', payload)
 
     def cancel_order(self, order_id):
         """
