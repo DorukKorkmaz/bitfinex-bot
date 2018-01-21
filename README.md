@@ -2,6 +2,10 @@
 
 Algorithmic trading bot for Bitfinex exchange which uses Talib indicators
 
+###DISCLAIMER
+
+I am not responsible for any money you lose with this bot. Use it at your own risk.
+
 ## Installation
 
 ### Requirements
@@ -17,6 +21,29 @@ You should insert your Bitfinex API Key and Secret into bitfinex_bot/account_inf
 'API Key'
 'API Secret'
 ```
+
+Put currencies you would like to trade into coins array
+
+```
+coinPairs = ['btcusd', 'ethusd', 'iotusd', 'xrpusd', 'ltcusd',
+                'zecusd', 'dshusd', 'eosusd', 'neousd', 'etcusd']
+```
+Put maximum money you would like to spend per currency into maxSpendInUSD.
+```
+maxSpendInUSD = 75
+```
+
+Put maximum number of currencies you would like to trade into maxNumberOfCurrencies
+```
+maxNumberOfCurrencies = 5
+```
+
+Select the time interval for your technical analysis
+```
+  interval = ["1h"]
+```
+
+Run the bot.py to start the bot.
 
 The tested strategies are under bitfinex_bot/Indicator.py.
 
