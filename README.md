@@ -2,13 +2,11 @@
 
 Algorithmic trading bot for Bitfinex exchange which uses Talib indicators
 
-###DISCLAIMER
+##DISCLAIMER
 
 I am not responsible for any money you lose with this bot. Use it at your own risk.
 
-## Installation
-
-### Requirements
+## Requirements
 * python
 * TA-Lib
 `$ pip install TA-Lib`
