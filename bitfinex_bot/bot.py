@@ -130,3 +130,6 @@ class Bot:
             res.append(index_currency_dict[key])
 
         return res
+
+bot = Bot()
+bot.run()
